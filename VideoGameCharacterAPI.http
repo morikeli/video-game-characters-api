@@ -1,0 +1,6 @@
+@VideoGameCharacterAPI_HostAddress = http://localhost:5237
+
+GET {{VideoGameCharacterAPI_HostAddress}}/api/VideoGameCharacters
+Accept: application/json
+
+###
