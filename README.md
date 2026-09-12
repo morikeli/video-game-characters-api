@@ -70,6 +70,7 @@ Example request body for creating or updating a character:
 > [!IMPORTANT]
 > Install the following tools:
 
+### Required tools installation guide
 - [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0)
 - [PostgreSQL](https://www.postgresql.org/download/) for running the database locally, or [Docker](https://docs.docker.com/get-docker/) for the containerized setup.
 - Optional: an editor such as [Visual Studio](https://visualstudio.microsoft.com/) or [VS Code](https://code.visualstudio.com/).
