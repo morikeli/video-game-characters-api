@@ -75,6 +75,33 @@ Example request body for creating or updating a character:
 - [PostgreSQL](https://www.postgresql.org/download/) for running the database locally, or [Docker](https://docs.docker.com/get-docker/) for the containerized setup.
 - Optional: an editor such as [Visual Studio](https://visualstudio.microsoft.com/) or [VS Code](https://code.visualstudio.com/).
 
+### Docker installation guide
+
+Docker is required only when using the Docker Compose setup. Install Docker for your operating system using the official documentation:
+
+- **Windows**: Install [Docker Desktop for Windows](https://docs.docker.com/desktop/setup/install/windows-install/).
+- **macOS**: Install [Docker Desktop for Mac](https://docs.docker.com/desktop/setup/install/mac-install/).
+- **Linux**: Install [Docker Engine](https://docs.docker.com/engine/install/) and the [Docker Compose plugin](https://docs.docker.com/compose/install/linux/).
+
+After installation, start Docker Desktop on Windows or macOS. On Linux, start the Docker service if it is not already running:
+
+```bash
+sudo systemctl start docker
+```
+
+Verify that Docker and Docker Compose are installed:
+
+```bash
+docker --version
+docker compose version
+```
+
+You can also run the Docker test image to confirm that the installation works:
+
+```bash
+docker run hello-world
+```
+
 ### Installation guide for developers
 
 1. Clone the repository:
