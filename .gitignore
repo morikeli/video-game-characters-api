@@ -1,0 +1,20 @@
+# Environment secrets
+.env
+.env.*
+
+# .NET build output
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
