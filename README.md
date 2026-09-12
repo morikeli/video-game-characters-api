@@ -67,7 +67,8 @@ Example request body for creating or updating a character:
 
 ### Prerequisites
 
-Install the following tools:
+> [!IMPORTANT]
+> Install the following tools:
 
 - [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0)
 - [PostgreSQL](https://www.postgresql.org/download/) for running the database locally, or [Docker](https://docs.docker.com/get-docker/) for the containerized setup.
