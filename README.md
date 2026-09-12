@@ -109,7 +109,7 @@ dotnet run
 When running in the development environment, Swagger UI is available at:
 
 ```text
-https://localhost:<8080>/swagger
+https://localhost:8080/swagger
 ```
 
 The exact HTTPS port is shown in the application output and is configured in `Properties/launchSettings.json`.
